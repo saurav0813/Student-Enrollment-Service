@@ -24,13 +24,3 @@ A RESTful API built with Flask for managing student enrollment and records in a 
 ```bash
 git clone https://github.com/saurav0813/Student-Enrollment-Service
 cd /student-Enrollment-Service
-
-
-
-
-
-
-
-
-
-
