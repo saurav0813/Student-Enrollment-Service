@@ -25,41 +25,6 @@ A RESTful API built with Flask for managing student enrollment and records in a 
 git clone https://github.com/saurav0813/Student-Enrollment-Service
 cd /student-Enrollment-Service```
 
-### 2.Install Dependencies
-```bash
-pip install Flask mysql-connector-python```
-
-### 3. Configure the Database
-```python
-db_config = {
-    'user': 'root',
-    'password': '9876', 
-    'host': 'localhost',
-    'database': 'student_enrollment_db'
-}```
-
-### 4. Create the Database
-```sql
-CREATE DATABASE student_enrollment_db;
-
-USE student_enrollment_db;
-
-CREATE TABLE students (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    firstname VARCHAR(100),
-    lastname VARCHAR(100),
-    email VARCHAR(100),
-    mobile_no VARCHAR(15),
-    age INT,
-    qualification VARCHAR(100)
-);```
-### 5. Run the Application
-```bash
-python app.py ```
-
-### Summary
-```vbnet
-This version clearly separates each step and uses proper formatting for code blocks. It specifies where to replace the password and emphasizes running commands in the correct environments. This should make it easy for users to follow your setup instructions. Let me know if you need any more changes!
 
 
 
