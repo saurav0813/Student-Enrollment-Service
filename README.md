@@ -57,11 +57,8 @@ CREATE TABLE students (
 ```bash
 python app.py
 
-### summary
-```vbnet
-
 ### Summary
-
+```vbnet
 This version clearly separates each step and uses proper formatting for code blocks. It specifies where to replace the password and emphasizes running commands in the correct environments. This should make it easy for users to follow your setup instructions. Let me know if you need any more changes!
 
 
